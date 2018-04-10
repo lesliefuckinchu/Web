@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('hvd_fonts_-_brandontext-bold-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.banner {
+	bottom: 0px;
+	margin-left: -10px; 
+	padding: 0px; 
+	margin-top: -10px;
+	height: 400px;
+	width: 1490px;
+
+}
+.nav{
+    display: block;
+    border-width:0px 0;
+    list-style:none;
+    margin:-10px;
+    padding:5px;
+    text-align:center;
+    background-color: #DC402B;
+
+}
+.nav li{
+    display:inline;
+
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Brandon Text';
+    font-weight: lighter;
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #EDBF31;
+}
+
+/* selected link */
+a:active {
+    color: #A72F1E;
+} 
+.article{
+	width: 45%; 
+	float: left; 
+	text-align:justify; 
+	margin-left: 45px; 
+	margin-bottom: 25px;
+	margin-top: 55px;
+}
+.title{
+	font-family: Didot;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 30;
+	color: #560303;
+
+}
+.apparel {
+	font-family: Didot;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	line-height: normal;
+	color: #560303;
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+   margin-bottom: 15px;
+   font-size: 12px;
+   color: #560303;
+	
+
+}
+.pfooter {
+	font-family: Didot; 
+	font-size: 12px
+}
